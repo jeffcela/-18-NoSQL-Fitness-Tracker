@@ -14,7 +14,7 @@ The fitness tracking application allows you to track your workouts, the goal was
 
 ## Here is a preview of the Fitness Tracker!
 
-![](./public/assets/images/FIT_1.png)
+![](/public/assets/images/FIT_1.png)
 ![](public/assets/images/FIT_2.png)
 
 
