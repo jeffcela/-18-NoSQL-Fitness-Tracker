@@ -1,5 +1,6 @@
 const API = {
   async getLastWorkout() {
+    console.log(`Inside getLastWorkout`);
     let res;
     try {
       res = await fetch("/api/workouts");
@@ -7,7 +8,7 @@ const API = {
       console.log(err)
     }
     const json = await res.json();
-
+    console.log('Last Workout Id: ' + json[json.length - 1]);
     return json[json.length - 1];
   },
   async addExercise(data) {
